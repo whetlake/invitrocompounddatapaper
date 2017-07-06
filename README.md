@@ -2,4 +2,4 @@
 
 All the code executed for the analysis conducted in the publication is contained within the file `queries.py`.
 
-> The code can not be used or copied without explicit consent until the time of publishing.
+> The code can not be used or copied without explicit consent until after the publishing.
