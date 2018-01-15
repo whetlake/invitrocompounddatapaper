@@ -1,4 +1,4 @@
-# This repository contains the code used in the publication of "Navigating in vitro activity data: investigating available resources using model compounds" by Ilmjärv et al. (currently unpublished).
+# This repository contains the code used in the publication of "Navigating in vitro bioactivity data: investigating available resources using model compounds" by Ilmjärv et al. (currently unpublished).
 
 All the code executed for the analysis conducted in the publication is contained within the file `queries.py`.
 
