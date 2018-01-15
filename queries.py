@@ -397,6 +397,11 @@ def write2table(header = None, data = None, filename = None):
 
 if __name__ == "__main__":
     print ("Program started")
+    
+    # For one of the compounds, the synonyms included a SMILES string which was unable to retrieve
+    # data from ChEMBL SPARQL endpoint. This was manually overwritten and the code directly inputted
+    # to the SPARQL endpoint provided in the web. This way the SMILES string didn't give an error.
+    
     # rosiglitazone
     rosiglitazone = retrieve_compound_labels("CHEMBL121")
     rosiglitazone_samplesandlabels = retrieve_samples_and_labels_for_compound(rosiglitazone)
